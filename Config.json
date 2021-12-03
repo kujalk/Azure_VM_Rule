@@ -1,0 +1,26 @@
+{
+    "SubscriptionName":"7645604a2-3rrr9-1111-bbbb-fggrr544c",
+    "ResourceGroup":"myResourceGroup",
+    "Region":"eastus",
+    "VMNIC_Name":"myNIC",
+    "Network_SGName":"bronze",
+    "SourceIP":"111.12.12.230",
+    "Rules":
+    [
+        {
+            "Name":"Test-Resolver",
+            "Protocol":"TCP",
+            "Direction":"Inbound",
+            "Port":"500",
+            "Priority":"120"
+        },
+        {
+            "Name":"Site-Resolver",
+            "Protocol":"UDP",
+            "Direction":"Inbound",
+            "Port":"550",
+            "Priority":"130"
+        }
+
+    ]
+}
